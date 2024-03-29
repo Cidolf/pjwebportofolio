@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #cc8f88;
+    
+}
+
+.left-container {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: #efd5be;
+}
+
+.photo-contact {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+}
+
+.photo {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.social-button {
+    width: 50%;
+    background-color: #f3c7c6;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.social-button:hover {
+    background-color: #cc8f88;
+    color: white;
+    transition: 1s;
+}
+
+.right-container {
+    position: absolute;
+    left: 400px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+.title {
+    font-style: italic;
+    font-size: 1.8rem;
+}
+
+.list-menu {
+    float: right;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.menu {
+    font-size: 1.1rem;
+    padding: 0 15px;
+}
+
+.menu:hover {
+    background-color: #efd5be;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#Profile {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#Tentang {
+    
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#Pendidikan {
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+#Pengalaman {
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+#Skill {
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+#Contact {
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+#Footer {
+    padding-top: 250px;
+    text-align: center;
+}
+
+p, li {
+    line-height: 200%;
+}
